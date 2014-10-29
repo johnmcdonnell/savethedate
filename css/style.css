@@ -1,0 +1,308 @@
+/* Pure grids assume a particular font family. */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+p {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 1.2em;
+	margin: 0.1em;
+}
+
+a:link {color: black; text-decoration: underline;} 
+a:visited {color: black; text-decoration: underline;}
+
+body {
+	margin: 0;
+	background-color: rgb(235, 235, 235);
+	text-align: center
+
+}
+
+@media screen and (max-width: 650px) {
+	.header {
+		display: none;
+	}
+}
+
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li,.pure-menu.pure-menu-open.pure-menu-fixed {
+	background: #333;
+	text-align: right;
+	border-bottom: none;
+	padding: .5em;
+	font-size: 1.15em;
+	color: #FFF;
+	opacity: 0.8;
+
+}
+
+.pure-menu li a:hover {
+	background-color: transparent;
+	color: rgb(210, 210, 210);
+}
+
+.a:visited {
+	color: #FFF;
+}
+
+.pure-menu li a {
+	color: white;
+}
+
+.pure-menu.pure-menu-open.pure-menu-fixed {
+	color: #FFF;
+}
+
+.pure-menu .pure-menu-selected a{
+	color: black;
+}
+
+a.top{
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
+}
+
+.hero #cover {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/savethedate_lores.jpg");
+	margin: 3em 0;
+}
+.hero #cover .inner {
+	padding-top: 63.35%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+
+.hero #earlycourthouse {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/earlycourthouse.jpg");
+	margin-top: 3em;
+}
+
+.hero #earlycourthouse .inner {
+	padding-top: 63.35%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+
+
+.hero #brickyard {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/brickyard.jpg");
+	margin-top: 3em;
+}
+
+.hero #brickyard .inner {
+	padding-top: 63.35%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+
+
+.hero #documentcheck {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/documentcheck.jpg");
+	margin-top: 3em;
+}
+
+.hero #documentcheck .inner {
+	padding-top: 63.35%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+
+.hero #groupwait {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/groupwait.jpg");
+	margin-top: 3em;
+}
+
+.hero #groupwait .inner {
+	padding-top: 63.35%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+
+
+.hero #postmarriagekiss {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url("../images/postmarriagekiss.jpg");
+	margin-top: 3em;
+}
+
+.hero #postmarriagekiss .inner {
+	padding-top: 63.35%; /* height/width of image */
+	display: block;
+	height: 0;
+}
+
+
+
+
+#travel p {
+	font-size: initial;
+	max-width: initial;
+}
+
+.textcontainer {
+	margin: 3em auto;
+	max-width: 45em;
+	padding: 1em;
+}
+
+.longtext{
+	text-align: left;
+	max-width: 45em;
+	margin: 0 auto;
+}
+
+#hotelcontainer {
+	padding: 1em;
+}
+
+.hotelinfo {
+	border: 0px solid rgb(190, 190, 190);
+	border-radius: 2px;
+	padding: 5%;
+	margin: 1em;
+	background-color: rgb(245, 245, 245);
+	color: black;
+
+
+}
+
+.hotelinfo a {
+	
+}
+
+.button {
+	border: 0px solid rgb(190, 190, 190);
+	border-radius: 2px;
+	width: 20%;
+	padding: 5%;
+	margin: 1em;
+	background-color: rgb(245, 245, 245);
+	color: black;
+	font-size: 14;
+
+}
+
+#mapcontainer {
+	max-width: 1200px;
+}
+
+#map img {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.key {
+	text-align: left;
+	list-style-type: none;
+	line-height: 0.5em;
+	margin: 0 auto;
+
+}
+
+.key td {
+	padding: .5em;
+	vertical-align: middle;
+}
+
+.key h1 {
+	font-size: 1em;
+}
+
+.key p {
+	font-size: 0.8em;
+	font-style: italic;
+	padding: 0;
+	line-height: 1em;
+}
+
+.keysection{
+	background: white;
+	margin-top: 1em;
+}
+
+.icon img {
+	height: 45px;
+	width: auto;
+}
+
+.icon {
+	text-align: right;
+	width: 50px;
+}
+
+.description {
+}
+
+.wide_icon {
+	width: 95px;
+	height: 45px;
+	padding-top: 15px;
+}
+
+.tall_icon {
+	width: 15px;
+	height: 75px;
+	padding-top: 15px;
+	padding-right: 80px
+}
